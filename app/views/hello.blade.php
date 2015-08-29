@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('title')
-Home
+Dog Walk
 @stop
 
 @section('content')
