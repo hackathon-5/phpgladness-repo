@@ -59,10 +59,7 @@
                 {{ Auth::user()->name }} <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
-                <li> <a href="#">Edit Profile </a></li>
                 <li> <a href="/logout"> Logout </a></li>
-                <li> <a href="/walk/create"> Start a Walk </a></li>
-                <li> <a href="/walk"> Find Walkers </a></li>
               </ul>
            </li>
 

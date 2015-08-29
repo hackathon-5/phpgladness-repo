@@ -10,7 +10,9 @@ class WalkController extends \BaseController {
 	public function index()
 	{
     $current_date = new DateTime();
-    $walks = DB::table('walks')->where('finish' > $current_date);
+    $current_date->setTimezone(new DateTimeZone('America/New_York'));
+    //return var_dump($current_date);
+    $walks = Walk::where('finish', '>', $current_date)->get();
 	  return View::make('walks.index')->withWalks($walks);	
 	}
 

@@ -11,8 +11,8 @@ Home
       #main-doge {max-height:30%}
     </style>
 <div class="container">
-<h1> Get out with other dog lovers!</h1>
-{{HTML::image('/img/doge.png','doge' , array("id" => "main-doge", "class" => "main-doge"))}}
+<h1 class="text-center"> Get out with other dog lovers!</h1>
+{{HTML::image('/img/doge.png','doge' , array("id" => "main-doge", "class" => "main-doge img-responsive center-block"))}}
 
 </div>
 @stop
